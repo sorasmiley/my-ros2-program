@@ -1,0 +1,58 @@
+[0.167s] Invoking command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/murasaki/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/murasaki/ros2_ws/src/install/my_cpp_pkg
+[0.496s] -- The C compiler identification is GNU 11.4.0
+[0.646s] -- The CXX compiler identification is GNU 11.4.0
+[0.672s] -- Detecting C compiler ABI info
+[0.786s] -- Detecting C compiler ABI info - done
+[0.792s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.795s] -- Detecting C compile features
+[0.797s] -- Detecting C compile features - done
+[0.816s] -- Detecting CXX compiler ABI info
+[1.068s] -- Detecting CXX compiler ABI info - done
+[1.082s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.082s] -- Detecting CXX compile features
+[1.086s] -- Detecting CXX compile features - done
+[1.088s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.439s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.605s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.704s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.714s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.743s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.924s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.939s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.112s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.151s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.215s] -- Looking for pthread.h
+[2.343s] -- Looking for pthread.h - found
+[2.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.477s] -- Found Threads: TRUE  
+[2.730s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.885s] -- Added test 'lint_cmake' to check CMake code style
+[2.888s] -- Added test 'xmllint' to check XML markup files
+[2.894s] -- Configuring done
+[2.903s] -- Generating done
+[2.908s] -- Build files have been written to: /home/murasaki/ros2_ws/src/build/my_cpp_pkg
+[2.927s] Invoked command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/murasaki/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/murasaki/ros2_ws/src/install/my_cpp_pkg
+[2.931s] Invoking command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/murasaki/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[2.997s] Invoked command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/murasaki/ros2_ws/src/build/my_cpp_pkg -- -j2 -l2
+[3.055s] Invoking command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/murasaki/ros2_ws/src/build/my_cpp_pkg
+[3.070s] -- Install configuration: ""
+[3.072s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.074s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.075s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.075s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.076s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.076s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.077s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.078s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.079s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.080s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.080s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.081s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.082s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.083s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.083s] -- Installing: /home/murasaki/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.092s] Invoked command in '/home/murasaki/ros2_ws/src/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/murasaki/ros2_ws/src/build/my_cpp_pkg
